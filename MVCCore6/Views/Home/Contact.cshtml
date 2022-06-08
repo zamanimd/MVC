@@ -4,6 +4,12 @@
     ViewData["Title"] = "Contact Us";
 }
 
+@section SEO{
+    <meta name="description" content="This is a MVC application with .net core 6.0 - Contact Form">
+    <meta name="author" content="Mohammad Zamani">
+            @*<link rel="canonical" href="https://www.sample.com">*@
+    }
+
 
 <div class="container">
     <div class="row">
@@ -17,7 +23,7 @@
                 <div class="col-md-12">
                     <label for="Name" class="form-label">Full name</label>
                     <input type="text" class="form-control" asp-for="Name">
-                    <span asp-validation-for="Name" calss="invalid-feedback"></span>
+                    <span asp-validation-for="Name" calss="text-danger"></span>
                 </div>
                 <div class="col-md-12">
                     <label for="Email" class="form-label">Your Email</label>
@@ -40,12 +46,12 @@
                     @{
                         if (!string.IsNullOrWhiteSpace(ViewBag.Msg_Success))
                         {
-                            <div class="alert alert-success">@ViewBag.Msg_Success</div>
+                                <div class="alert alert-success">@ViewBag.Msg_Success</div>
                         }
 
                         if (!string.IsNullOrWhiteSpace(ViewBag.Msg_Error))
                         {
-                            <div class="alert alert-danger">@ViewBag.Msg_Error</div>
+                                <div class="alert alert-danger">@ViewBag.Msg_Error</div>
                         }
                     }
                 </div>

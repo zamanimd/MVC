@@ -54,13 +54,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="Views\Shared\_Layout - Backup.cshtml">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.5" />
   </ItemGroup>
 

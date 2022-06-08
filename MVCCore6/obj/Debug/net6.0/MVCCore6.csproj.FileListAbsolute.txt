@@ -16,7 +16,6 @@ D:\GitHub\MVCCore\MVCCore6\bin\Debug\net6.0\MVCCore6.dll
 D:\GitHub\MVCCore\MVCCore6\bin\Debug\net6.0\MVCCore6.pdb
 D:\GitHub\MVCCore\MVCCore6\obj\Debug\net6.0\staticwebassets.build.json
 D:\GitHub\MVCCore\MVCCore6\obj\Debug\net6.0\staticwebassets.development.json
-D:\GitHub\MVCCore\MVCCore6\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout - Backup.cshtml.rz.scp.css
 D:\GitHub\MVCCore\MVCCore6\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\GitHub\MVCCore\MVCCore6\obj\Debug\net6.0\scopedcss\bundle\MVCCore6.styles.css
 D:\GitHub\MVCCore\MVCCore6\obj\Debug\net6.0\scopedcss\projectbundle\MVCCore6.bundle.scp.css
