@@ -65,6 +65,14 @@ namespace MVCCore6.Controllers
             ViewBag.Msg_Success = "Your message has been sent.";
             return View(model);
         }
+
+        //[HttpPost]
+        //public JsonResult Contact(IFormCollection form)
+        //{
+        //    var name = form["name"];
+        //    return Json(Ok());
+        //}
+
         //--------------------//
 
 
