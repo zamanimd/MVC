@@ -15,6 +15,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\GitHub\MVCCore\MVCCore6
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/GitHub/MVCCore/MVCCore6/Views/Home/Components/Products/Products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wb25lbnRzXFByb2R1Y3RzXFByb2R1Y3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/MVCCore/MVCCore6/Views/Home/Components/Services/Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wb25lbnRzXFNlcnZpY2VzXFNlcnZpY2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitHub/MVCCore/MVCCore6/Views/Home/Components/Sliders/Sliders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb21wb25lbnRzXFNsaWRlcnNcU2xpZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/GitHub/MVCCore/MVCCore6/Views/Home/Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

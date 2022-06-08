@@ -15,13 +15,15 @@
 </head>
 <body>
 
-    <partial name="Header" />
+    @*<partial name="Header" />*@
+    @await Html.PartialAsync("Header")
 
     <main>
 
         @RenderBody()
 
-        <partial name="Footer" />
+        @*<partial name="Footer" />*@
+        @await Html.PartialAsync("Footer")
 
     </main>
 
