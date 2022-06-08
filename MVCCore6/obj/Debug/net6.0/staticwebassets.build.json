@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xDMOIorkjeDeF0VMuVbhX7n8P5HXZ47Er3CYjLL6DOY=",
+  "Hash": "QCAT2aV3Ie+9oRUCMdXLTO2Q2FD59PV73cBFX7H/NXE=",
   "Source": "MVCCore6",
   "BasePath": "_content/MVCCore6",
   "Mode": "Default",
@@ -1069,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\GitHub\\MVCCore\\MVCCore6\\wwwroot\\test.txt",
+      "SourceId": "MVCCore6",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\MVCCore\\MVCCore6\\wwwroot\\",
+      "BasePath": "_content/MVCCore6",
+      "RelativePath": "test.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\test.txt"
     }
   ]
 }
