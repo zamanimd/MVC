@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6UzGYDksxdwRaLNxpVl1HKXdcioq1ApayrWnOl36OU0=",
+  "Hash": "xDMOIorkjeDeF0VMuVbhX7n8P5HXZ47Er3CYjLL6DOY=",
   "Source": "MVCCore6",
   "BasePath": "_content/MVCCore6",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\GitHub\\MVCCore\\MVCCore6\\wwwroot\\js\\script.js",
+      "SourceId": "MVCCore6",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\MVCCore\\MVCCore6\\wwwroot\\",
+      "BasePath": "_content/MVCCore6",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
       "Identity": "D:\\GitHub\\MVCCore\\MVCCore6\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
