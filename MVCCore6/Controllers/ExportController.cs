@@ -6,35 +6,40 @@ namespace MVCCore6.Controllers
     {
         public IActionResult Index()
         {
-            //return new OkResult();
+            return new OkResult();
             //return new NotFoundResult();
             //return new BadRequestResult();
             //return new NoContentResult();
-            return new StatusCodeResult(401);
+            //return new StatusCodeResult(401);
         }
+
 
         //public IActionResult Index()
         //{
         //    return PartialView("Footer");
         //}
 
+
         //public PartialViewResult Index()
         //{
         //    return PartialView("Footer");
         //}
 
+
         //public ContentResult Index()
         //{
         //    //return Content("<h1>hello Asp.net Core MVC Student");
-        //    return Content($"<h1>hello Asp.net Core MVC Student</h1><script>confirm('این سوال من است؟');</script>",
+        //    return Content($"<h1>hello Asp.net Core MVC Student</h1><script>confirm('This is my question?');</script>",
         //        "text/html");
         //}
+
 
         //public EmptyResult Index()
         //{
         //    //return null;
         //    return new EmptyResult();
         //}
+
 
         //public FileResult Index()
         //{
@@ -43,6 +48,7 @@ namespace MVCCore6.Controllers
         //    const string fileName = "testFile.txt";
         //    return File(fileByte, MediaTypeNames.Text.Plain, fileName);
         //}
+
 
         //public JsonResult Index()
         //{
@@ -55,21 +61,25 @@ namespace MVCCore6.Controllers
         //    });
         //}
 
+
         //public JavascriptResult Index()
         //{
-        //    return new JavascriptResult("alert('salam salam hamegi salam!!!')");
+        //    return new JavascriptResult("alert('Hi this is a MVC Core 6.0 application.')");
         //}
+
 
         //public RedirectResult Index()
         //{
-        //    return Redirect("http://www.atriya.com");
+        //    return Redirect("https://www.google.com");
         //}
+
 
         //public RedirectToActionResult Index()
         //{
         //    return RedirectToAction("Contact", "Home");
         //}
     }
+
 
     //public class JavascriptResult : ContentResult
     //{
