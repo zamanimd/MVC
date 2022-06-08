@@ -1,0 +1,63 @@
+﻿@model Contact
+
+@{
+    ViewData["Title"] = "Contact Us";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <br />
+            <br />
+
+            <h1>@ViewData["Title"]</h1>
+
+            <form class="row g-3 needs-validation" method="post" asp-action="Contact">
+                <div class="col-md-12">
+                    <label for="Name" class="form-label">Full name</label>
+                    <input type="text" class="form-control" asp-for="Name">
+                    <span asp-validation-for="Name" calss="invalid-feedback"></span>
+                </div>
+                <div class="col-md-12">
+                    <label for="Email" class="form-label">Your Email</label>
+                    <input type="email" class="form-control" asp-for="Email">
+                    <span asp-validation-for="Email" calss="text-danger"></span>
+                </div>
+                <div class="col-md-12">
+                    <label for="Subject" class="form-label">Subject</label>
+                    <select class="form-select" asp-for="Subject" asp-items="Model.lst_Subjects">
+                        @*<option value="Subject" selected="selected">Select a subject ...</option>*@
+                    </select>
+                    <span asp-validation-for="Subject" calss="text-danger"></span>
+                </div>
+                <div class="col-md-12">
+                    <label for="Message" class="form-label">Message</label>
+                    <textarea class="form-control" rows="10" asp-for="Message"></textarea>
+                    <span asp-validation-for="Message" calss="text-danger"></span>
+                </div>
+                <div class="col-md-12">
+                    @{
+                        if (!string.IsNullOrWhiteSpace(ViewBag.Msg_Success))
+                        {
+                            <div class="alert alert-success">@ViewBag.Msg_Success</div>
+                        }
+
+                        if (!string.IsNullOrWhiteSpace(ViewBag.Msg_Error))
+                        {
+                            <div class="alert alert-danger">@ViewBag.Msg_Error</div>
+                        }
+                    }
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+            </form>
+
+            <hr class="featurette-divider">
+        </div>
+    </div>
+</div>
+
+
+
