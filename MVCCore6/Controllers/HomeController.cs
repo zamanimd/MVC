@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using MVCCore6.Models;
 using System.Diagnostics;
+
+using MVCCore6.Models;
+using MVCCore6.Data;
 
 namespace MVCCore6.Controllers
 {
@@ -22,6 +24,12 @@ namespace MVCCore6.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        public IActionResult ProductDetail(int id)
+        {
+            var product = ProductData.GetProductInfo(id);
+            return View(product);
         }
 
 
