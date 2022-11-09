@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DERy1djLzX33wPkdJbHITDikipWC0JLv27kjUUdI7/Phpsr6jOpdYSogbPjCr79eHyFuzXU/ujox3xpeNExLfA==",
+  "dgSpecHash": "jDI4oQf0a7Ujfs5yIUwQ+d0EAftk8noo7tiPFVt5z+faQ0y3qOhZopCe8d51ofpDODK9lr5R2cQU4LMVDdnfrw==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\MVCCore\\MVCCore6\\MVCCore6.csproj",
+  "projectFilePath": "D:\\Github-Aryana\\MVC\\MVCCore6\\MVCCore6.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mohammad\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
@@ -153,12 +153,5 @@
     "C:\\Users\\Mohammad\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\GitHub\\MVCCore\\MVCCore6\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
