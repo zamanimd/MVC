@@ -1,6 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "dFd6nuTrAje0LvpKZkkkxZgSWnhql/Bs1jEasb9YXI0dIEiL/YPtRs/XeDQvKV+gYpitlbkOzOmLV2YD3MAbqw==",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "GYuXVnlh1DJ4SbAXCESOiADaSvoiV5lv8Grv9u4AlI6sOdnc8xLqnKtx7p/e9BBp1ODTlqkzEd6JZJuCdryF4Q==",
+=======
+  "dgSpecHash": "jDI4oQf0a7Ujfs5yIUwQ+d0EAftk8noo7tiPFVt5z+faQ0y3qOhZopCe8d51ofpDODK9lr5R2cQU4LMVDdnfrw==",
+>>>>>>> b90635a965ef18a5aaba5c8aa36e0ca5be407dac
+>>>>>>> 6a576b68b69db03a532dda6961305d5c2bece356
   "success": true,
   "projectFilePath": "D:\\Github-Aryana\\MVC\\MVCCore6\\MVCCore6.csproj",
   "expectedPackageFiles": [
